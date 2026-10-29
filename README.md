@@ -1,5 +1,9 @@
 # Codex Quota Monitor
 
+![English menu preview with synthetic data](assets/menu-preview.png)
+
+Production menu component rendered with synthetic records; this is not a live account screenshot.
+
 A free menu bar companion for Codex on macOS. Check local quota, reset windows, public announcements, alerts, and optional public-source analysis in one application.
 
 - Apple Silicon; macOS 13 or later. See tested scope in [Known Issues](docs/KNOWN_ISSUES.md).
