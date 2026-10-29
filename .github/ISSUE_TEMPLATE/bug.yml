@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible application issue
+title: "[Bug] "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Versions and environment
+      description: App build, macOS, Mac chip, and Codex version. Do not include account identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps and expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Redact keys, personal paths, account identifiers, and private records.
+    validations:
+      required: true

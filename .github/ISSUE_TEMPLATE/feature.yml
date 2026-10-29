@@ -1,0 +1,9 @@
+name: Feature request
+description: Suggest an improvement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: The task you want to complete
+    validations:
+      required: true
