@@ -1,6 +1,6 @@
 # Known issues and tested scope
 
-This first release is a beta. The final release notes list the exact package and environments actually tested. macOS 13 or later on Apple Silicon is the target; Intel, mobile devices, and the complete macOS/Codex compatibility matrix are not claimed.
+This first release is a beta. See [release testing](TESTING.md) for the exact package, environments, and remaining test boundaries. macOS 13 or later on Apple Silicon is the target; Intel, mobile devices, and the complete macOS/Codex compatibility matrix are not claimed.
 
 Codex app-server is an external compatibility dependency. Missing Codex, a signed-out account, an unsupported protocol, or source failures can leave values unavailable. Public announcements are independent of account readings.
 

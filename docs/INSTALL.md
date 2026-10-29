@@ -3,7 +3,7 @@
 1. Download the Apple Silicon DMG from this repository's Releases page.
 2. Open the DMG and drag Codex Quota Monitor to Applications. Eject the disk image and open the installed app.
 3. Install Codex from its official source and sign in to Codex. The quota app reuses that local session; it does not ask for your Codex password.
-4. The app discovers Codex in Applications or your existing CLI path. If you use a different Codex data folder, choose **Choose Codex Data Folder** in the application menu, then reopen.
+4. The app discovers Codex in Applications or your existing CLI path. If you use a different Codex data folder, choose **Choose Codex Data Folder** by right-clicking the menu bar item, then reopen.
 5. Open the menu bar item or the full panel. Failed or stale readings remain labeled; public posts are not account quota evidence.
 
 Choose English or Simplified Chinese from **Language** or Settings and reopen the app. Public-source checks and local quota checks use separate schedules. Closing the panel leaves the menu bar app running; Quit stops its workers. **Open at Login** is optional.
@@ -16,6 +16,6 @@ Choose **Import Legacy Records**, select the old CodexResetForecast data folder,
 
 ## Updates and uninstall
 
-Use **Check for Updates**. **Receive Beta Updates** is an explicit opt-in; automatic installation is off. Keep Gatekeeper enabled; do not remove quarantine flags to install this app.
+Right-click the menu bar item and choose **Check for Updates**. **Receive Beta Updates** is an explicit opt-in; automatic installation is off. Keep Gatekeeper enabled; do not remove quarantine flags to install this app.
 
 To uninstall, disable Open at Login, quit the app, and move the application to Trash. Application data and Keychain entries remain unless you explicitly remove them. The app does not install the older product's LaunchAgents.
